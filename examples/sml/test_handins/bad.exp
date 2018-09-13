@@ -1,0 +1,10 @@
+        Expected 3333 but got 12072
+ Score: 0.0.
+
+Checking bonuses...
+Failed to add bonus 10 + ~10
+in under 2 seconds. Skipping.
+
+
+
+{"scores": {"hard": 0.0, "easy": 0.0}, "scoreboard": [0]}

@@ -1,0 +1,5 @@
+To test your checks.sml, place sample submissions in this directory
+according to the following format:
+
+    somename.tar : the submission you want to test
+    somename.exp : the expected json score

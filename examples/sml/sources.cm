@@ -1,0 +1,11 @@
+Group is
+      $/basis.cm
+      $/regexp-lib.cm
+      handin/adder.sml  (* the student submission *)
+      support/adder.sig (* the ADDER signature *)
+      support/timer.sml
+      helper.sig (* the HELPER signature *)
+      helper.sml (* the Helper module *)
+      checks.sig (* the CHECKS signature *)
+      checks.sml (* the ChecksHelper functor *)
+      main.sml   (* the big cheese *)
