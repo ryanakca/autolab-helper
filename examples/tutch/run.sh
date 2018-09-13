@@ -8,9 +8,6 @@ abort () {
     exit 0
 }
 
-tar -mxf autograde.tar || \
-    abort "Failed to extract autograder."
-
 [ -d handin ] || mkdir handin
 
 [ -f handin.tar ] || \
