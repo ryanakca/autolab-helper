@@ -1,0 +1,1 @@
+proof instance : (!x:t.A(x)) & (?y:t.B(y)) => ?z:t.A(z);

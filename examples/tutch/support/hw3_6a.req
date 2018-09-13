@@ -1,0 +1,1 @@
+proof apply : (!x:t.A(x) => B(x)) => (!x:t.A(x)) => (!x:t.B(x));
