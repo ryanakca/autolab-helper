@@ -1,0 +1,10 @@
+# This file is called in a VM by the autograder
+all:
+	tar -mxf autograde.tar
+	# We are requied by AutoLab to always terminate
+	# by printing a valid score string. If ./run.sh
+	# exists with an error, this will not happen.
+	./run.sh || \
+		( echo "run.sh exited with non-zero exit code.";\
+		  echo "Contact course staff."; \
+		  echo "{\"score\": {}}" )

@@ -1,0 +1,9 @@
+Group is
+      $/basis.cm
+      $/regexp-lib.cm
+      support/sources.cm
+      helper.sig (* the HELPER signature *)
+      helper.sml (* the Helper module *)
+      checks.sig (* the CHECKS signature *)
+      checks.sml (* the ChecksHelper functor *)
+      main.sml   (* the big cheese *)
